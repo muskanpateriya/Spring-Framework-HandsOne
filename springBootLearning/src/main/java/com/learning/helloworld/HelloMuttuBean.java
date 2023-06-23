@@ -1,5 +1,7 @@
 package com.learning.helloworld;
 
+
+//basic
 public class HelloMuttuBean {
 	
 	private String message;

@@ -44,8 +44,7 @@ public class UserController {
 				.path("/{id}")                                         // http://localhost:8080/users/{id}
 				.buildAndExpand(createdUser.getId())                  // http://localhost:8080/users/4
 				.toUri();                                            // http://localhost:8080/users/4
-		return ResponseEntity.created(location).build();            // Sending created 201 status ialong with the location of created resource
-
+		return ResponseEntity.created(location).build();           
 	}
 
 

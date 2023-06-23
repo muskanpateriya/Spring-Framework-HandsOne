@@ -7,8 +7,9 @@ import jakarta.validation.constraints.Size;
 
 public class Users {
 
+	
 	private Integer id;
-	@Size(min = 4,message = "please enter atleast 4 character")
+	@Size(min = 4,message = "please enter atleast 4 character name")
 	private String name;
 	@Past(message = "please enter past birthdate")
 	private LocalDate dateOfBirth;

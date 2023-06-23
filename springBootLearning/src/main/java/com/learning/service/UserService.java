@@ -20,7 +20,7 @@ public class UserService {
 		users = new ArrayList<>();
 		users.add(new Users(++countId, "Muskan Pateriya", LocalDate.now().minusYears(23)));
 		users.add(new Users(++countId, "Vidhi Pateriya", LocalDate.now().minusYears(24)));
-		users.add(new Users(++countId, "Vaishnavi Pateriya", LocalDate.now().minusYears(22)));
+		users.add(new Users(++countId, "Shradha Pateriya", LocalDate.now().minusYears(22)));
 	}
 
 	public List<Users> findAll() {
