@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.learning</groupId>
-	<artifactId>project-muttu-learning</artifactId>
+	<artifactId>project-spring-boot-learning</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>project-muttu-learning</name>
 	<description>Demo project for Spring Boot</description>
