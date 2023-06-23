@@ -2,16 +2,16 @@ package com.learning.helloworld;
 
 
 //basic
-public class HelloMuttuBean {
+public class HelloWorldBean {
 	
 	private String message;
 
-	public HelloMuttuBean() {
+	public HelloWorldBean() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public HelloMuttuBean(String message) {
+	public HelloWorldBean(String message) {
 		super();
 		this.message = message;
 	}
@@ -26,7 +26,7 @@ public class HelloMuttuBean {
 
 	@Override
 	public String toString() {
-		return "HelloMuttuBean [message=" + message + "]";
+		return "HelloWorldBean [message=" + message + "]";
 	}
 	
 	
