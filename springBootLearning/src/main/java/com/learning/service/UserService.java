@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.learning.entity.Users;
 
-@Service
+
 public class UserService {
 
 	private static List<Users> users;

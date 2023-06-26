@@ -17,16 +17,16 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.learning.entity.Users;
 import com.learning.exception.UserNotFoundException;
-import com.learning.service.UserService;
+import com.learning.service.UserServices;
 
 import jakarta.validation.Valid;
 
 @RestController
 public class UserController {
 
-	private UserService service;
+	private UserServices service;
 
-	public UserController(UserService service) {
+	public UserController(UserServices service) {
 		this.service = service;
 	}
 
